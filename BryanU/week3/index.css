@@ -2,6 +2,9 @@
     color: green;
 }
 
+body {
+    background: red;
+}
 h1  {
     text-align: center;
     font-size: 65px;
