@@ -22,3 +22,14 @@ h2 {
 #go {
     text-transform: uppercase;
 }
+
+a { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+    text-decoration: none; 
+}
+
+
+a:hover { 
+    text-decoration: underline; color: navy;
+   }
