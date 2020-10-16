@@ -24,7 +24,7 @@ h2 {
 }
 
 a { 
-    font-family: Georgia, 'Times New Roman', Times;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: crimson;
     text-decoration: none; 
 }
