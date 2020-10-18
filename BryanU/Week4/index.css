@@ -1,12 +1,25 @@
 html, body {
-   color: cornsilk;
    margin: 0; 
    padding: 0;
 }
-.nav {
-    color: blue;
-    position: relative
+.p {
+    color: black;
+    display: inline;
 }
-blog {
+.div nav-bar  {
+    position: fixed;
+    width: 50%;
+    margin: 10px;
+    background-color: lightslategray;
+}
+.about us {
+    position: relative;
+    left: 315px;
+}
+.contact {
+    position: relative;
+    left: 150px;
+}
+.img {
     display: block;
 }
