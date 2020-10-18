@@ -1,0 +1,12 @@
+html, body {
+   color: cornsilk;
+   margin: 0; 
+   padding: 0;
+}
+.nav {
+    color: blue;
+    position: relative
+}
+blog {
+    display: block;
+}
