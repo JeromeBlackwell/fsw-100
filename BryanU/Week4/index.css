@@ -1,25 +1,23 @@
-html, body {
-   margin: 0; 
-   padding: 0;
-}
-.p {
-    color: black;
-    display: inline;
-}
-.div nav-bar  {
+.nav {
     position: fixed;
-    width: 50%;
-    margin: 10px;
-    background-color: lightslategray;
-}
-.about us {
-    position: relative;
-    left: 315px;
+    width: 25%;
+    margin: 15px;
+    background: rgb(245, 235, 196);
 }
 .contact {
-    position: relative;
-    left: 150px;
+    left: 170px;   
+}
+.aboutus {
+    left: 100px;
+    color: crimson;
+}
+.home {
+    left: 50px;
+    color: navy;
 }
 .img {
-    display: block;
+    float: ;
+}
+.h1, p, span {
+    float: ;
 }

@@ -1,18 +1,18 @@
-.project1 {
+header {
     color: blue;
     font-family: 'Times New Roman', Times, serif;  
 }
 .poll table, th, td, tr {
     border: 1px solid black;
 }
-.h2 {
+h2 {
     color: brown;
     font-family: 'Times New Roman', Times, serif;  
 }
-.h3 {
+h3 {
     color:blue;
     font-family: 'Times New Roman', Times, serif; 
 }
-.reference {
+reference {
     font-family: 'Times New Roman', Times, serif;
 }
