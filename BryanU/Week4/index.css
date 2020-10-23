@@ -1,9 +1,10 @@
-.nav {
+html
+nav {
     position: fixed;
     width: 25%;
     margin: 15px;
     background: rgb(245, 235, 196);
-}
+    }
 .contact {
     left: 170px;   
 }
@@ -15,9 +16,6 @@
     left: 50px;
     color: navy;
 }
-.img {
-    float: ;
-}
-.h1, p, span {
-    float: ;
+img {
+    float: left;
 }
