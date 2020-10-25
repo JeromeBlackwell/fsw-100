@@ -1,8 +1,12 @@
-.body {
-
+body {
+    background: slategrey;
 }
 
 .header {
     font-size: x-large;
 }
-img
+img {
+    width: 400px
+
+}
+
