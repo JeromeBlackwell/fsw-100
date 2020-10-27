@@ -9,23 +9,46 @@ h1, h2 {
     font-family: 'Lalezar', cursive;
     font-size: 55px;
 }
-.Chef {
+p {
+    color: white;
+}
+nav {
+    background-color: lightgray;
+    color:rgb(78, 78, 143);
+    width: 183px;
+}
+.house {
+    color:gold;
+    font-size: large;
+}
+.chef {
     position: relative;
     left: 70px;
     border: green;
     width: 425px;
 }
-main, table, th, td {
-        border: 2px solid green;
-        text-align: center;
-        font: #ff0000d0;
-        margin: 10px;
-        padding: 30px;
-        width: 100px;
+#food {
+        border: 3px solid green;
+        border-collapse: collapse;
+        width: 200px;
+        color: whitesmoke;
 }
-nav {
-    background-color: lightgray;
-    color: black;
+#appertizer {
+    height: 50px;
+    border: 5px solid green;
+    color:   #ff0000d0;
+    width: 200px;
 }
-
+#lunch {
+    height: 50px;
+    border: 5px solid green;
+    color:   #ff0000d0;
+    width: 200px;
+}
+#dinner {
+    height: 50px;
+    border: 5px solid green;
+    color: #ff0000d0;
+    width: 200px;
+}
 
