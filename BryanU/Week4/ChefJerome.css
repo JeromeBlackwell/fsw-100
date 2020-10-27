@@ -1,25 +1,29 @@
-
-html, body {
-background-color: lightgoldenrodyellow; 
-
-
+html,body {
+    background-image: url("https://wallpapercave.com/wp/1ecsoou.jpg");
+    background-color: #cccccc;
+}
+h1 {
+    color: #ff0000d0;
     font-family: 'Krona One', sans-serif;
     font-family: 'Lalezar', cursive;
     font-size: xx-large;
 }
-img {
-    width: 300px;
-    border: 15px solid green;
-    margin: 20px;
+.Chef {
+    background: green;
+    padding: 12px;
+    border: 2px solid  #ff0000d0;
 }
-table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
+main, table, th, td {
+        border: 2px solid green;
         text-align: center;
-        margin-top:100px;
+        font: #ff0000d0;
+        margin: 10px;
+        padding: 30px;
+        width: 100px;
 }
-.nav {
-    background-color: lightslategrey;
+nav {
+    background-color: lightgray;
+    color: black;
 }
 
 
