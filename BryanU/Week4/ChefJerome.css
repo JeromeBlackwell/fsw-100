@@ -1,12 +1,25 @@
-body {
-    background: slategrey;
-}
 
-.header {
-    font-size: x-large;
+html, body {
+background-color: lightgoldenrodyellow; 
+
+
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Lalezar', cursive;
+    font-size: xx-large;
 }
 img {
-    width: 400px
-
+    width: 300px;
+    border: 15px solid green;
+    margin: 20px;
 }
+table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        margin-top:100px;
+}
+.nav {
+    background-color: lightslategrey;
+}
+
 
