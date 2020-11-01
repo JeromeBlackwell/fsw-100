@@ -1,7 +1,9 @@
+
 .item1 {
-    width: 300px;
+    background-color: #e21708;
+    width: 200px;
     height: 100px;
-    border: 2px solid rgb(238, 153, 78);    
+    border: 2px solid #d2f35b;    
 }
 .item1:hover {
     width: 100px;
@@ -10,7 +12,8 @@
     margin: 50px;
 }   
 .item2 {
-    width: 300px;
+    background-color: rgb(141, 49, 6);
+    width: 200px;
     height: 100px;
     border: 2px solid rgb(11, 28, 180);
 }
@@ -21,7 +24,8 @@
     margin: 50px;
 }   
 .item3 {
-    width: 300px;
+    background-color: rgb(236, 238, 115);
+    width: 200px;
     height: 100px;
     border: 2px solid red;
 }
@@ -32,9 +36,10 @@
     margin: 50px;
 }   
 .item4 {
-    width: 300px;
+    background-color: mediumblue;
+    width: 200px;
     height: 100px;
-    border: 2px solid rgb(173, 108, 108);
+    border: 2px solid rgb(230, 22, 126);
 }
 .item4:hover {
     width: 100px;
@@ -43,7 +48,8 @@
     margin: 50px;
 }   
 .item5 {
-    width: 300px;
+    background-color: rgb(214, 8, 87);
+    width: 200px;
     height: 100px;
     border: 2px solid rgb(238, 153, 78);
 }
@@ -54,7 +60,8 @@
     margin: 50px;
 }   
 .item6 {
-    width: 300px;
+    background-color: #1496d3;
+    width: 200px;
     height: 100px;
     border: 2px solid aqua;
 }
