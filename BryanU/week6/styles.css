@@ -4,7 +4,8 @@
     width: 200px;
     height: 100px;
     border-radius: 40px;
-    border: 2px solid #d2f35b;    
+    border: 2px solid #d2f35b;
+    transition:  2s ease-in-out .7s;
 }
 .item1:hover {
     width: 100px;
@@ -18,12 +19,14 @@
     width: 80px;
     height: 100px;
     border: 2px solid rgb(11, 28, 180);
+    transition: 5s ease-in-out .5s;
 }
 .item2:hover {
     width: 100px;
     height:  65px;
     background-color: rgb(19, 204, 19);
     margin: 50px;
+    
 }   
 .item3 {
     background-color: rgb(236, 238, 115);
