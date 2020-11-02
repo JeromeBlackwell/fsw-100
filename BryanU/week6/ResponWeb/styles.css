@@ -1,5 +1,8 @@
 html, body {
     background-color: rgb(245, 190, 109);
+}   
+* {
+    box-sizing: border-box;
 }
 h1 {
     font-family: 'Alfa Slab One', cursive;
@@ -8,39 +11,29 @@ h1 {
 .header {
     text-align: center;
     padding: 32px;
-  }
-
-.bird {
-    display:inline;
 }
-.gallery__img {
-    width: 40%;
-    height: 40%;
-    object-fit: cover;
-    display: block;
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
 }
-.gallery {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: repeat(2, 5vw);
-    grid-gap: 2px; 
-  }
-.gallery__item--1 {
-    grid-column: 1;
-    grid-row: 1;
-    
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
-.gallery__item--2 {
-    grid-column:23;
-    grid-row: 1;
+.row {
+    display: -ms-flexbox; 
+    flex-wrap: wrap;
+    padding:  4px;
 }
-.gallery__item--3 {
-    grid-column: 2;
-    grid-row: 1;
-    
+.column {
+    -ms-flex: 50%; 
+    flex: 50%;
+    padding: 0 4px;
 }
-.gallery__item--4 {
-    grid-column 2;
-    grid-row: 2;
-    
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
 }
