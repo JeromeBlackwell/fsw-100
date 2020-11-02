@@ -46,6 +46,7 @@
     width: 200px;
     height: 100px;
     border: 2px solid rgb(230, 22, 126);
+    transition: 3s ease-in-out .9s;
     }
 .item4:hover {
     width: 100px;
@@ -59,6 +60,7 @@
     height: 100px;
     border: 2px solid rgb(238, 153, 78);
     border-radius: 100px;
+    transition: 5s ease-in-out .8s;
 }
 .item5:hover {
     width: 100px;
