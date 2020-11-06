@@ -1,13 +1,13 @@
+.grid-container > div {
+    text-align: center;
+    font-size: 30px;
+}
 .grid-container {
     display: grid;
     grid-template-columns: repeat (4,1fr);
     margin-top: 150px;    
     grid-gap: 10px;
 }
-.grid-container > div {
-    text-align: center;
-    font-size: 30px;
-  }
 
 .item1 {
     background-color: #f5c6d6;
