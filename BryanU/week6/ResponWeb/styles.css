@@ -1,32 +1,35 @@
 html, body {
-    background-color: rgb(245, 190, 109);
+    background-image: url('platnuimwall.jpg');
+    background-color: #917575;
+}
+h1  {
+    color:hsl(0, 96%, 50%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+}
+h2, h3 {
+    color:hsl(0, 96%, 50%);
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
+}
+#review {
+    background-color: Silver;
+    width: 700px;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    color: blue;
+    width: 215px;
+}
+.bird, p {
+    color: whitesmoke
 }   
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 10px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-}
-fa:hover {
-    opacity: 0.7;
-}
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
 * {
     box-sizing: border-box;
-}
-h1 {
-    font-family: 'Alfa Slab One', cursive;
-    font-size: xx-large;
 }
 .header {
     text-align: center;
@@ -34,28 +37,30 @@ h1 {
 }
 .flex-container {
     display: flex;
-    background-color: DodgerBlue;
-    justify-content: center;
+    justify-content: space-between;
+    height: 5%;
 }
 .flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
+    margin: 5px;
+    height: 5%;
 }
 .row {
     display: flex; 
     flex-direction: column;
     padding:  4px;
     align-items: center;
+    border-style: solid rgb(65, 114, 122);
 }
 .column {
     display: flex; 
     flex-direction: column;
-    flex: -75%;
-    padding: 0 4px;
+    flex: 5%;
+    padding: 4px;
+    align-items: center;
+    border-radius: 2px;
+    border-style: solid rgb(65, 114, 122);
 }
-.Bird, main {
+main {
    display: flex;
    flex-direction: column;
    align-items: center; 
@@ -63,12 +68,28 @@ h1 {
 .column img {
     margin-top: 8px;
     vertical-align: middle;
-    width: 500px;
+    width: 375px;
     height: auto;
+    border-style: solid rgb(65, 114, 122);
 }
-@media only screen and (min-width: 700px){
+img {
+    width: 105%;
+}    
+#cost {
+    color: whitesmoke;
 }
-.row{
-    display: grid;
-    grid-template-columns: 50%;
+#about {
+    color: whitesmoke;
+    margin-left: 30%;
+    margin-right: 30%;
+}    
+th,td {
+    height: 30px;
+    border: 2px solid whitesmoke;
+    color:   whitesmoke;
+    width: 300px;
+    background-color: black;
+}
+td {
+    text-align: center;
 }
