@@ -22,3 +22,286 @@
                 </div>
         </body>
 </html>
+<!-- media queries -->
+html, body {
+    background-image: url('graywoodgrain.jpg');
+    background-color: #917575;
+}
+h1  {
+    color:hsl(0, 96%, 50%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+}
+h2, h3 {
+    color:hsl(0, 96%, 50%);
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+#review {
+    background-color:hsl(0, 96%, 50%);
+    width: 700px;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+}
+nav {
+    position: fixed;
+    background-color: silver;
+    color:rgb(33, 33, 212);
+    width: 273px;
+    margin: 29px;
+    margin-top: -20px;
+}
+.bird, p {
+    color: whitesmoke
+}   
+.header {
+    text-align: center;
+    padding: 32px;
+}
+.flex-container {
+    display: flex;
+    background-color: Silver;
+    justify-content: space-between;
+    height: 5%;
+    margin: 30px;
+}
+.flex-container > div {
+    background-color: 2px black;
+    border: solid 20px black;
+    margin: 25px;
+    height: 5%;
+}
+.row {
+    display: flex;
+    flex-wrap: center;
+    padding: 0px 1px;
+    flex: center;
+    margin: 6%;
+    margin-left: 25.5%;
+    margin-right: 25.5%;
+    border: solid 7px black;
+}
+.column {
+    flex: 25%;
+    padding: 0px 7px 12px;
+    background-color: Silver;
+}
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+}  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    border: 5% solid rgb(65, 114, 122);
+}
+img {
+    width: 100%;
+    margin-bottom: -2%;
+}    
+#cost {
+    color: whitesmoke;
+}
+#about {
+    color: whitesmoke;
+    margin-left: 30%;
+    margin-right: 30%;
+}    
+th,td {
+    height: 30px;
+    border: 2px solid whitesmoke;
+    color:   whitesmoke;
+    width: 300px;
+    background-color: black;
+}
+td {
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .row {
+        flex-direction: column;
+        margin-left: 25%;
+        margin-right: 26%;
+    }
+    .column {
+        flex: -25%;
+        padding: 0px 7px 15px;
+        width: 100%;
+        background-color: silver;
+    }
+    #review {
+        width: 500px;
+        border: 5px solid black;
+        padding: 15px;
+    }
+    .flex-container > div {
+        border: solid 10px black;
+        margin: 6px;
+        height: 5%;
+    }
+    img {
+        margin-bottom: -4%;
+    }
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        height: auto;
+        border: 4% solid rgb(65, 114, 122);
+    }    
+    p {
+        margin-left: 9%;
+        margin-right: 9%;
+        text-align: center;
+    }
+    #about {
+        margin-left: 19%;
+        margin-right: 17%;
+    }
+    }
+    @media (min-width: 768px) {
+    .row {
+        display: flex;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 0px 1px;
+    }
+    .column img { 
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 158px;
+        height: auto;
+        border: 5% solid rgb(65, 114, 122);
+    } 
+    .column {
+        width: 100%;
+        padding: 0px 8px 12px ;
+    }
+    #review {
+        width: 600px;
+        border: 5px solid black;
+        padding: 10px;
+    }
+    .flex-container > div {
+        border: solid 10px black;
+    }
+    .flex-container {
+        display: flex;
+        background-color: Silver;
+        justify-content: space-between;
+        height: 5%;
+        margin: 30px;
+    }
+    img {
+        width: 100%;
+        margin-bottom: -4%;
+    }
+    p {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    #about {
+        margin-left: 27%;
+        margin-right: 24%;
+    }  
+    }
+    @media (min-width: 992px) {
+    .row {
+        display: flex;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 0px 1px;
+    }
+    .column img { 
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 215px;
+        height: auto;
+        border: 5% solid rgb(65, 114, 122);
+    } 
+    .column {
+        width: 100%;
+        padding: 0px 8px 12px ;
+    }
+    #review {
+        width: 600px;
+        border: 5px solid black;
+        padding: 10px;
+    }
+    .flex-container > div {
+        border: solid 10px black;
+    }
+    .flex-container {
+        display: flex;
+        background-color: Silver;
+        justify-content: space-between;
+        height: 5%;
+        margin: 30px;
+    }
+    img {
+        width: 100%;
+        margin-bottom: -3%;
+    }
+    p {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #about {
+        margin-left: 31%;
+        margin-right: 22%;
+    }
+    }@media (min-width: 1200px) {
+        .row {
+        display: flex;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 0px 1px;
+    }
+    .column img { 
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 220px;
+        height: auto;
+        border: 5% solid rgb(65, 114, 122);
+    } 
+    .column {
+        width: 100%;
+        padding: 0px 8px 12px ;
+    }
+    #review {
+        width: 600px;
+        border: 5px solid black;
+        padding: 10px;
+    }
+    .flex-container > div {
+        border: solid 10px black;
+    }
+    .flex-container {
+        display: flex;
+        background-color: Silver;
+        justify-content: space-between;
+        height: 5%;
+        margin: 30px;
+    }
+    img {
+        width: 100%;
+        margin-bottom: -3%;
+    }
+    p {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #about {
+        margin-left: 31%;
+        margin-right: 22%;
+    }
+    }
+    

@@ -1,0 +1,288 @@
+html, body {
+    background-image: url('graywoodgrain.jpg');
+    background-color: #917575;
+}
+h1  {
+    color:hsl(0, 96%, 50%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+}
+ nav {
+        position: fixed;
+        background-color: silver;
+        color:rgb(33, 33, 212);
+        /* width: 273px; */
+        margin: 1px;
+        margin-top: -19px;
+    }
+    a { 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:rgb(33, 33, 212);
+        text-decoration: none;
+    }
+    a:hover { 
+        background-color: red;
+    }
+    .disabled {
+        opacity: 1.0;
+        cursor: not-allowed;
+        background-color: #0b7fec; 
+        margin-left: 45%;
+        margin-right: 45%;
+        width: 10%;
+        height: -30%;
+        color: white;
+    }
+    h2, h3 {
+        color: hsl(0, 96%, 50%);
+        text-align: center;
+        font-size: xx-large;
+    }
+    .flex-container > div {
+        background-color: 3px black;
+        border: solid 5px black;
+        width: 40%;
+        margin: 1px;
+        height: 14%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 10%;
+    }img {
+        width: 100%;
+        margin-bottom: -3%;    
+    }
+    p {
+        color: #e7d6de;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+    #reserve {
+        color: #d2fc8e;
+        margin-left: 5%; 
+        margin-right: 5%;
+    }
+    #address {
+        color: #d2fc8e;
+        text-align: center;
+    }
+    #pay {
+        color: rgb(8, 151, 247);
+    }
+    #cost {
+        color: #e7d6de;
+    }
+    #about {
+        color: #e7d6de;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+    th,td {
+        height: 30px;
+        border: 2px solid#e7d6de;
+        color:  #d2fc8e;
+        width: 300px;
+        background-color: black;
+    }
+    td {
+        text-align: center;
+    }
+    @media only screen and (min-width: 600px) {
+        /* nav {
+            position: fixed;
+            background-color: silver;
+            color:rgb(33, 33, 212);
+            width: 273px;
+            margin: 1px;
+            margin-top: -19px;
+        } */
+        h2, h3 {
+            color: hsl(0, 96%, 50%);
+            text-align: center;
+            font-size: xx-large;
+        }
+        .flex-container > div {
+            background-color: 3px black;
+            border: solid 5px black;
+            width: 40%;
+            margin: 1px;
+            height: 14%;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-bottom: 10%;
+        }
+        img {
+            width: 100%;
+            margin-bottom: -1%;    
+        }
+        p {
+            color: #e7d6de;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 5%;
+        }
+        #reserve {
+            color: #d2fc8e;
+            margin-left: 5%; 
+            margin-right: 5%;
+        }
+        #address {
+            color: #d2fc8e;
+            text-align: center;
+        }
+        #cost {
+            color: #e7d6de;
+        }
+        #about {
+            color: #e7d6de;
+            margin-left: auto;
+            margin-right: auto;
+        }    
+        th,td {
+            height: 30px;
+            border: 2px solid#e7d6de;
+            color:  #d2fc8e;
+            width: 300px;
+            background-color: black;
+        }
+        td {
+            text-align: center;
+        }
+    }
+        @media only screen and(min-width: 768px) and (min-width: 992px) {
+            /* nav {
+                position: fixed;
+                background-color: silver;
+                color:rgb(33, 33, 212);
+                width: 273px;
+                margin: 1px;
+                margin-top: -19px;
+            } */
+            .disabled {
+                opacity: 1.0;
+                cursor: not-allowed;
+                background-color: #0b7fec; 
+                margin-left: 50%;
+                margin-right: 50%;
+                width: 20%;
+                height: -30%;
+                color: white;
+            }
+            h2, h3 {
+                color: hsl(0, 96%, 50%);
+                text-align: center;
+                font-size: xx-large;
+            }
+            .flex-container > div {
+                background-color: 3px black;
+                border: solid 5px black;
+                width: 40%;
+                margin: 1px;
+                height: 14%;
+                margin-left: 30%;
+                margin-right: 30%;
+                margin-bottom: 10%;
+            }
+            img {
+                width: 100%;
+                margin-bottom: -3%;    
+            }
+            p {
+                color: #e7d6de;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-bottom: 5%;
+            }
+            #reserve {
+                color: #d2fc8e;
+                margin-left: 20%; 
+                margin-right: 20%;
+            }
+            #address {
+                color: #d2fc8e;
+                text-align: center;
+            }
+            #cost {
+                color: #e7d6de;
+                margin-left: 30%; 
+                margin-right: 30%;
+            }
+            #about {
+                color: #e7d6de;
+                margin-left: auto;
+                margin-right: auto;
+            }    
+            th,td {
+                height: 30px;
+                border: 2px solid#e7d6de;
+                color:  #d2fc8e;
+                width: 300px;
+                background-color: black;
+            }
+            td {
+                text-align: center;
+            }
+        }
+        @media only screen and (min-width: 1100px) and (min-width: 1200px) {
+            /* nav {
+                position: fixed;
+                background-color: silver;
+                color:rgb(33, 33, 212);
+                width: 273px;
+                margin: 1px;
+                margin-top: -19px;
+            } */
+            h2, h3 {
+                color: hsl(0, 96%, 50%);
+                text-align: center;
+                font-size: xx-large;
+            }
+            .flex-container > div {
+                background-color: 3px black;
+                border: solid 5px black;
+                width: 40%;
+                margin: 1px;
+                height: 14%;
+                margin-left: 30%;
+                margin-right: 30%;
+                margin-bottom: 10%;
+            }
+            img {
+                width: 100%;
+                margin-bottom: -3%;    
+            }
+            p {
+                color: #e7d6de;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-bottom: 5%;
+            }
+            #reserve {
+                color: #d2fc8e;
+                margin-left: 25%; 
+                margin-right: 25%;
+            }
+            #address {
+                color: #d2fc8e;
+            }
+            #cost {
+                color: #e7d6de;
+                margin-left: 20%; 
+                margin-right: 20%;
+            }
+            #about {
+                color: #e7d6de;
+                margin-left: auto;
+                margin-right: auto;
+            }    
+            th,td {
+                height: 30px;
+                border: 2px solid#e7d6de;
+                color:  #d2fc8e;
+                width: 300px;
+                background-color: black;   
+            }
+            td {
+                text-align: center;
+            }  
+        }

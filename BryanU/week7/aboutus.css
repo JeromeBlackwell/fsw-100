@@ -1,0 +1,153 @@
+html, body {
+    background-image: url('/week7/graywoodgrain.jpg');
+    background-color: #917575;
+}
+h1  {
+    color:hsl(0, 96%, 50%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+    margin: 5px;
+}
+nav {
+    position: fixed;
+    background-color: silver;
+    color:rgb(33, 33, 212);
+    /* width: 273px; */
+    margin: 6px;
+    margin-top: -1px;
+}
+a { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(33, 33, 212);
+    text-decoration: none;
+}
+a:hover { 
+    background-color: red;
+   }
+h2 {
+    color: hsl(0, 96%, 50%);
+    text-align: center;
+    font-size: 30px;    
+}
+#about{
+    color: #e7d6d6;
+    align-content: center;
+    margin-left: -3px ;
+    /* margin-right: 3px; */
+}
+.flex-container > div {
+    border: solid 10px black;
+    margin: 6px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    margin-bottom:-5.5px;
+    width: 100%;
+}
+p {
+    color: #e7d6d6;
+    margin-left: 10px;
+    margin-right: 10px;;
+}
+#address{
+    color: rgb(210, 252, 142);
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+    /* h1  {
+        color:hsl(0, 96%, 50%);
+        font-family: 'Orbitron', sans-serif;
+        font-size: xx-large;
+        margin: 5px;
+    } */
+    /* nav {
+        position: fixed;
+        background-color: silver;
+        color:rgb(33, 33, 212);
+        width: 273px;
+        margin: 6px;
+        margin-top: -1px;
+    } */
+    /* h2 {
+        color: hsl(0, 96%, 50%);
+        text-align: center;
+        font-size: 30px;    
+    } */
+    #about{
+        color: #e7d6d6;
+        align-content: center;
+        margin-left: 195px ;
+        margin-right: 195px;
+    }
+    .flex-container > div {
+        border: solid 10px black;
+        margin: 6px;
+        width: 355px;
+        margin-left: 195px;
+        margin-right: auto;
+    }
+    img {
+        margin-bottom:-5.5px;
+        width: 100%; 
+    }
+    p {
+        color: #e7d6d6;
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
+    #address{
+        color: #d2fc8e;
+        margin-left: 120px;
+        margin-right: auto;
+    }
+}
+ @media only screen and (min-width: 800px) and (min-width: 1000px) {
+/* h1  {
+        color:hsl(0, 96%, 50%);
+        font-family: 'Orbitron', sans-serif;
+        font-size: xx-large;
+        margin: 5px;
+    } */
+    /* nav {
+        position: fixed;
+        background-color: silver;
+        color:rgb(33, 33, 212);
+        width: 273px;
+        margin: 6px;
+        margin-top: -1px;
+    } */
+    /* h2 {
+        color: hsl(0, 96%, 50%);
+        text-align: center;
+        font-size: 30px;    
+    } */
+    #about{
+        color: #e7d6d6;
+        align-content: center;
+        margin-left: 330px ;
+        margin-right: auto;
+    }
+    .flex-container > div {
+        border: solid 10px black;
+        margin: 6px;
+        width: 520px;
+        margin-left: 235px;
+        margin-right: auto;
+    }
+    img {
+        margin-bottom:-5.5px;
+        width: 100%; 
+    }
+    p {
+        color: #e7d6d6;
+        margin-left: 10px;
+        margin-right: 10px;;
+    }
+    #address{
+        color: rgb(210, 252, 142);
+        margin-left: 225px;
+        margin-right: auto;
+    }
+}
