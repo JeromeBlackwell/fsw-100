@@ -62,17 +62,24 @@ p {
 .row {
     display: flex;
     flex-wrap: center;
-    padding: 0px 1px;
-    flex: center;
+    padding: 7px;
+    background-color: Silver;
+    align-items: flex-start ;
+    justify-content: center;
     margin: 6%;
-    margin-left: 25.5%;
-    margin-right: 25.5%;
+    margin-left: 30%;
+    margin-right: 30%;
     border: solid 7px black;
 }
-.column {
-    flex: 25%;
-    padding: 0px 7px 12px;
-    background-color: Silver;
+.column img
+{
+    /* flex: 25%; */
+    /* padding: 0px 7px 12px; */
+    margin-bottom: 15px;
+}
+#catch {
+    width: 500px;
+    height:  500px;
 }
 main {
    display: flex;
@@ -110,9 +117,10 @@ td {
 }
 @media only screen and (min-width: 600px) {
 .row {
-    flex-direction: column;
-    margin-left: 25%;
-    margin-right: 26%;
+    /* background: purple; */
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 6%;
 }
 .column {
     flex: -25%;
@@ -154,9 +162,9 @@ img {
         margin-right: 17%;
     }
     }
-    @media only screen and (min-width: 768px) and (min-width: 1400px){
+    /* @media only screen and (min-width: 768px) and (min-width: 1400px){
         .row {
-            flex-direction: column;
+            flex-direction: row;
             margin-left: 25%;
             margin-right: 26%;
         }
@@ -181,9 +189,9 @@ img {
             height: 5%;
         }
         img {
-            margin-bottom: -6px;
+            margin-bottom: -6px; */
             /* margin-left: -1%; */
-        }
+        /* }
             .column img {
             margin-top: 8px;
             vertical-align: middle;
@@ -199,4 +207,4 @@ img {
                 margin-left: 19%;
                 margin-right: 17%;
             }
-            }
+            }  */
